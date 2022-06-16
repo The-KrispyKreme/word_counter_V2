@@ -20,12 +20,11 @@
     * doc (, transcript)
 
 * Word
-    * searched_word (charfield, word or phased to be searched)
+    * 
 
 * WordCount
     * searched_word (foreignkey to Word)
     * doc (foreignkey to Document)
-    * present (boolean, `TRUE` if word is present)
     * count (interger field, count of the word in the documents)
 
 
